@@ -1,0 +1,12 @@
+#down_arrow{
+  width: 200px;
+}
+.cls-1, .cls-2 {
+  fill: #F4F4F4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+}
+.cls-2 {
+  fill: #0099FF;
+}
