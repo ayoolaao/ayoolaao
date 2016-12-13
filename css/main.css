@@ -1,33 +1,59 @@
-body {
-    background-color: #CADAE1;
-    text-align: center;
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
 }
 
-#aboutMe {
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#homeCarousel{
     height: 100vh;
-    width: 100vw;
-    padding: 10% 0;
 }
 
-#aboutMeMain{
-    padding-bottom: 20px;
+#aboutMeSkillz{
+    background-color: #FFFDDD;
 }
 
-#aboutMeInstagram{
-    padding-top: 50px;
+#designer{
+    background-color: #479BBF;
+    padding: 40px;
 }
 
-#aboutsocialicons {
-    margin: 10% 0;
+#scientist{
+    background-color: #FF3049;
+    padding: 40px;
 }
 
-#featuredWorks{
+#developer{
+    background-color: #D9D054;
+    padding: 40px;
+}
+
+#skillz{
+    padding: 40px;
+}
+
+#portfolio{
+    background-color: rgba(71, 155, 191, 1);
+}
+
+#portfolioText{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.portfolioThumbnail img{
+    width: auto;
+    margin-left: 0;
+
+}
+
+#otherStuffs{
     height: 100vh;
-    width: 100vw;
-    background: #27aae1;
 }
 
-/**#aboutMePict{
-    display: block;
-    margin: auto;
-}**/
+#otherStuffText{
+    padding: 10%;
+}
