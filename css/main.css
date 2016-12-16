@@ -8,8 +8,23 @@ body{
     padding: 0 !important;
 }
 
-#homeCarousel{
+/**#homeCarousel{
     height: 100vh;
+}**/
+
+#homeSlide1 {
+    height: 100vh;
+    background-color: #479BBF;
+}
+
+#homeSlide2 {
+    height: 100vh;
+    background-color: #FF3049;
+}
+
+#homeSlide3 {
+    height: 100vh;
+    background-color: #D9D054;
 }
 
 #aboutMeSkillz{
