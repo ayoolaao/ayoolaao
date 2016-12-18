@@ -55,6 +55,7 @@
 
 /** ..................................................... **/
 
+
 .btn-black {
     background: #000000;
     color: #FFFFFF;
@@ -86,12 +87,14 @@
 }
 
 /** ..................................................... **/
+/** ..................................................... **/
 
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
 }
 
+/** ..................................................... **/
 /** ..................................................... **/
 
 .navbar.transparent {
@@ -137,6 +140,8 @@
     color: rgba(255, 255, 255, 0.5);
 }
 
+/** ..................................................... **/
+
 .navbar.shrink {
     padding: 0 30px;
     border-bottom-color: #FF3049;
@@ -144,6 +149,16 @@
     transition: background-color 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background-color 0.5s ease-in-out, padding 0.5s ease-in-out;
     -webkit-transition: background-color 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.navbar.shrink .navbar-brand {
+    color: black;
+    font-weight: bold;
+    /**padding-left: 30px;**/
+    font-size: 1.5em;
+}
+.navbar-default .navbar-brand:hover {
+    color: black;
 }
 
 .navbar.shrink li a {
@@ -165,6 +180,7 @@
     color: #FF3049;
 }
 
+/** ..................................................... **/
 /** ..................................................... **/
 
 .carousel-indicators li{
@@ -193,5 +209,6 @@
     width: auto;
 }
 
+/** ..................................................... **/
 /** ..................................................... **/
 

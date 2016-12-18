@@ -53,7 +53,8 @@ body{
 /** ..................................................... **/
 
 #portfolio{
-    background-color: rgba(71, 155, 191, 1);
+    /**background-color: rgba(71, 155, 191, 1);**/
+    background-color: rgb(255, 255, 255);
 }
 
 #portfolioText{
@@ -61,10 +62,23 @@ body{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.portfolioThumbnail img{
+.portfolioThumbnail img {
+    width: auto;
+    margin-left: 0;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.portfolioThumbnail img:hover {
     width: auto;
     margin-left: 0;
 
+    -webkit-transform: scale(0.99);
+    -moz-transform: scale(0.99);
+    -o-transform: scale(0.99);
+    transform: scale(0.99);
 }
 
 /** ..................................................... **/
@@ -138,8 +152,19 @@ body{
     line-height: 0
 }
 
+#socialLinks a img {
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+
 #socialLinks a img:hover {
-    opacity: 0.5;
+    opacity: 0.7;
+    -webkit-transform: translate(0, -1em);
+    -moz-transform: translate(0, -1em);
+    -o-transform: translate(0, -1em);
+    transform: translate(0, -1em);
 }
 
 /** ..................................................... **/
