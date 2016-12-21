@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1280 2660 640 380">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0.663;
+      }
+
+      .cls-3 {
+        font-size: 96px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #ff3049;
+        font-size: 50px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(1280 2340)">
+    <g id="Rectangle_25" data-name="Rectangle 25" class="cls-1" transform="translate(0 320)">
+      <rect class="cls-5" width="640" height="380"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="639" height="379"/>
+    </g>
+    <line id="Line_7" data-name="Line 7" class="cls-1" x1="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-1" x2="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <g id="on_hover_T-shirt" data-name="on hover T-shirt">
+      <g id="Rectangle_34" data-name="Rectangle 34" class="cls-2" transform="translate(38 342)">
+        <rect class="cls-5" width="564" height="336"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="563" height="335"/>
+      </g>
+      <text id="T-shirt" class="cls-3" transform="translate(185 547)"><tspan x="0" y="0">T-shirt</tspan></text>
+      <text id="designs" class="cls-4" transform="translate(185 588)"><tspan x="0" y="0">designs</tspan></text>
+    </g>
+  </g>
+</svg>

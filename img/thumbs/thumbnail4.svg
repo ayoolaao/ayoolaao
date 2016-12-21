@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 3040 640 380">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0.663;
+      }
+
+      .cls-3 {
+        font-size: 96px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #ff3049;
+        font-size: 50px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(0 2720)">
+    <g id="Rectangle_26" data-name="Rectangle 26" class="cls-1" transform="translate(0 320)">
+      <rect class="cls-5" width="640" height="380"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="639" height="379"/>
+    </g>
+    <line id="Line_9" data-name="Line 9" class="cls-1" x1="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <line id="Line_10" data-name="Line 10" class="cls-1" x2="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <g id="on_hover_3D_models" data-name="on hover 3D models">
+      <g id="Rectangle_35" data-name="Rectangle 35" class="cls-2" transform="translate(38 342)">
+        <rect class="cls-5" width="564" height="336"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="563" height="335"/>
+      </g>
+      <text id="_3-D" data-name="3-D" class="cls-3" transform="translate(233 531)"><tspan x="0" y="0">3-D</tspan></text>
+      <text id="models" class="cls-4" transform="translate(233 572)"><tspan x="0" y="0">models</tspan></text>
+    </g>
+  </g>
+</svg>

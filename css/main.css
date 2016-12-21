@@ -280,29 +280,46 @@ textarea {
     color: #FF3049;
 }
 
+#portfolioDropdown {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#portfolioDropdown a {
+    color: #FFFFFF;
+}
+
+#portfolioDropdown a:hover {
+    color: #FF3049;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.caret:active, .caret:hover, .caret:focus {
+    background-color: transparent;
+}
+
 /** ..................................................... **/
 /** ..................................................... **/
 
-.carousel-indicators li{
+#homeCarousel .carousel-indicators li{
     display: inline-block;
     width: 20px;
     height: 20px;
     text-indent: 0;
 }
 
-.carousel-indicators .active {
+#homeCarousel .carousel-indicators .active {
     width: 20px;
     height: 20px;
     background-color: #FFFFFF;
 }
 
-.carousel-control.left, .carousel-control.right {
+#homeCarousel .carousel-control.left, #homeCarousel .carousel-control.right {
     background-image: none !important;
     filter: none !important;
     font-size: 2px;
 }
 
-.icon.icon-left, .icon.icon-right {
+#homeCarousel .icon.icon-left, #homeCarousel .icon.icon-right {
     position: absolute;
     margin-top: 50vh;
     height: 14px;
@@ -370,18 +387,21 @@ body{
 /** ..................................................... **/
 
 #portfolio{
-    /**background-color: rgba(71, 155, 191, 1);**/
-    background-color: rgb(255, 255, 255);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(71, 155, 191, 1);
+    /**background-color: rgb(255, 255, 255);**/
 }
 
 #portfolioText{
-    padding: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 4%;
+    /**background-color: rgba(255, 255, 255, 0.8);**/
 }
 
 .portfolioThumbnail img {
     width: auto;
     margin-left: 0;
+    padding: 0.1% 0.1%;
     -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s ease-in-out;
     -o-transition: 0.5s ease-in-out;
@@ -393,49 +413,70 @@ body{
     margin-left: 0;
 
     -webkit-transform: scale(0.99);
-    -moz-transform: scale(0.99);
+    -moz-transform: scale(0.995);
     -o-transform: scale(0.99);
     transform: scale(0.99);
 }
 
 /** ..................................................... **/
 
-#otherStuffs{
+
+/**#photoGallery{
     height: 100vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #000000;
 }
 
-#otherStuffText{
-    padding: 10%;
+#photoGalleryText{
+    color: #FFFFFF;
+    padding-bottom: 4%;
+    /**padding: 1%;
+    background-color: rgba(255, 255, 255, 0.2);
+}**/
+
+/** This rule is read by Galleria to define the gallery height: **/
+
+/**.galleria {
+    padding: 0;
+    margin-bottom: 0.5%;
+    height: 60vh;
+    background: #000
 }
+
+.content {
+    color:#777;
+    font:12px/1.4 "helvetica neue",arial,sans-serif;
+    width:620px;
+    margin:20px auto;
+}
+
+.cred {
+    margin-top:20px;
+    font-size:11px;
+}**/
+
+/** ..................................................... **/
 
 /** ..................................................... **/
 
 #contactForm {
     /**min-height: 62vh;**/
     background-color: #FF3049;
-    padding: 3% 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     color: white;
     font-size: larger;
     font-weight: 100;
 }
 
-#contactForm .name, #contactForm .email, .contactFormText {
-    padding: 1% 0 1% 0;
+#contactForm h2, #contactForm h3 {
+    margin-bottom: 30px;
 }
 
-.name input, .email input {
-    width: 100%;
-    height: 3em;
-}
-
-.yourMessage {
-    padding-top: 6%;
-}
-
-.yourMessage textarea {
-    padding-bottom: 20px;
-    width: 100%;
-    height: 11em;
+#contactForm p {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 /** ..................................................... **/
@@ -446,8 +487,8 @@ body{
     background-color: #FFFDDD;
     padding: 2% 20%;
 
-    width: 100vw;
-    /**margin-left: auto;
+    /**width: 100vw;
+    margin-left: auto;
     margin-right: auto;**/
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
@@ -470,10 +511,11 @@ body{
 }
 
 #socialLinks a img {
-    -webkit-transition: 0.6s ease-in-out;
-    -moz-transition: 0.6s ease-in-out;
-    -o-transition: 0.6s ease-in-out;
-    transition: 0.6s ease-in-out;
+    max-width: 40px;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 #socialLinks a img:hover {
@@ -487,23 +529,11 @@ body{
 /** ..................................................... **/
 
 footer {
-    width: 100%;
+    width: 100vw;
     margin: 0 !important;
-    padding: 0 !important;
+    padding: 50px !important;
     background: #2FC0FF;
 }
-
-footer p {
-    text-align: center;
-    padding: 50px 0;
-}
-
-
-
-
-
-
-
 
 
 

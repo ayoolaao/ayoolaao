@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="640 3040 640 380">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0.663;
+      }
+
+      .cls-3 {
+        font-size: 96px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #ff3049;
+        font-size: 50px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(640 2720)">
+    <g id="Rectangle_27" data-name="Rectangle 27" class="cls-1" transform="translate(0 320)">
+      <rect class="cls-5" width="640" height="380"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="639" height="379"/>
+    </g>
+    <line id="Line_11" data-name="Line 11" class="cls-1" x1="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <line id="Line_12" data-name="Line 12" class="cls-1" x2="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <g id="on_hover_skins_decals" data-name="on hover skins &amp; decals">
+      <g id="Rectangle_36" data-name="Rectangle 36" class="cls-2" transform="translate(38 342)">
+        <rect class="cls-5" width="564" height="336"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="563" height="335"/>
+      </g>
+      <text id="Skins" class="cls-3" transform="translate(195 531)"><tspan x="0" y="0">Skins</tspan></text>
+      <text id="_decals" data-name="&amp; decals" class="cls-4" transform="translate(195 572)"><tspan x="0" y="0">&amp; decals</tspan></text>
+    </g>
+  </g>
+</svg>

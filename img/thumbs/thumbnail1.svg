@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 2660 640 380">
+  <defs>
+    <style>
+      .cls-1, .cls-6 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: 0.663;
+      }
+
+      .cls-3 {
+        font-size: 96px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #ff3049;
+        font-size: 50px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(0 2340)">
+    <g id="Rectangle_14" data-name="Rectangle 14" class="cls-1" transform="translate(0 320)">
+      <rect class="cls-5" width="640" height="380"/>
+      <rect class="cls-6" x="0.5" y="0.5" width="639" height="379"/>
+    </g>
+    <line id="Line_3" data-name="Line 3" class="cls-1" x1="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <line id="Line_4" data-name="Line 4" class="cls-1" x2="608.313" y2="351.039" transform="translate(18.07 334.984)"/>
+    <g id="on_hover_graphic" data-name="on hover graphic">
+      <g id="Rectangle_34" data-name="Rectangle 34" class="cls-2" transform="translate(38 342)">
+        <rect class="cls-5" width="564" height="336"/>
+        <rect class="cls-6" x="0.5" y="0.5" width="563" height="335"/>
+      </g>
+      <text id="GRAPHIC" class="cls-3" transform="translate(99 547)"><tspan x="0" y="0">GRAPHIC</tspan></text>
+      <text id="design" class="cls-4" transform="translate(99 588)"><tspan x="0" y="0">design</tspan></text>
+    </g>
+  </g>
+</svg>
