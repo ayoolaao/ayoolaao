@@ -96,6 +96,16 @@ textarea {
    ========================================================================== */
 
 /** ..................................................... **/
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #000000;
+}
+
+/** ..................................................... **/
+
+
 /** ..................................................... **/
 /** ........... Bootstrap Modded ................ **/
 .btn {
@@ -280,6 +290,8 @@ textarea {
     color: #FF3049;
 }
 
+/** ..................................................... **/
+
 #portfolioDropdown {
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -332,13 +344,6 @@ textarea {
 /** ..................................................... **/
 /** .............. My Main CSS .................... **/
 /** ..................................................... **/
-body{
-    margin: 0 !important;
-    padding: 0 !important;
-    color: #000000;
-}
-
-/** ..................................................... **/
 
 /**#homeCarousel{
     height: 100vh;
@@ -387,8 +392,8 @@ body{
 /** ..................................................... **/
 
 #portfolio{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 5%;
     background-color: rgba(71, 155, 191, 1);
     /**background-color: rgb(255, 255, 255);**/
 }
@@ -535,7 +540,34 @@ footer {
     background: #2FC0FF;
 }
 
+/** ..................................................... **/
+/** .............. Portfolio Page ................... **/
+/** ..................................................... **/
 
+.portfolio, .topText {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.topText div h2, .topText div h3 {
+    margin-bottom: 30px;
+}
+
+.topText div p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.portfolio div h2, .portfolio div h3 {
+     margin-bottom: 30px;
+ }
+
+.portfolio div p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/** ..................................................... **/
 
 
 
